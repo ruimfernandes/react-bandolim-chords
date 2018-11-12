@@ -5,7 +5,14 @@ import './String.css';
 class String extends Component {
   renderFrets() {
     return this.props.notes.map((note, index) => {
-      return <Fret key={index} note={note} />;
+      return (
+        <Fret
+          key={index}
+          note={note}
+          firstFret={index === 0}
+          active={this.props.active === index}
+        />
+      );
     });
   }
 

@@ -1,0 +1,13 @@
+.StringInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.Item {
+  display: flex;
+  flex: 1;
+  width: 100px;
+  flex-direction: row;
+  justify-content: center;
+}
