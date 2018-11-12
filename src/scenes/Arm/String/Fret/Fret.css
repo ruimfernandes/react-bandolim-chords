@@ -1,0 +1,28 @@
+.Fret {
+  display: flex;
+  flex: 1;
+  width: 100px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NoteText {
+  display: flex;
+  flex: 1;
+  background-color: purple;
+  justify-content: center;
+}
+
+.Wire {
+  display: flex;
+  flex: 1;
+  height: 5px;
+  background-color: grey;
+}
+
+.FretSteelBorder {
+  display: flex;
+  height: 100%;
+  width: 5px;
+  background-color: red;
+}

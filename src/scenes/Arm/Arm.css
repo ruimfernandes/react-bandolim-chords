@@ -1,0 +1,5 @@
+.Arm {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
